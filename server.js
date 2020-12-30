@@ -6,7 +6,9 @@ app.use(express.static('public'));
 app.use(express.json());
 mongoose.set('useFindAndModify', false);
 
-app.listen(3000, ()=>{
+var PORT = process.env.PORT || 3000;
+
+app.listen(PORT, ()=>{
     console.log("express server started on 3000");
 });
 
