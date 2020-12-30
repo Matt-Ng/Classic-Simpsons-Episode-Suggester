@@ -1,0 +1,33 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #fcdb00;
+}
+
+.btn{
+    background-color: #F14E28;
+}
+
+.jumbotron{
+    background-color: #87CEEB;
+}
+
+.infoBox{
+    background-color: pink;
+}
+
+.like{
+    background-color: green;
+}
+
+.dislike{
+    background-color: red;
+}
+
+.thecontent img{
+    width:50%;
+    height:50%;
+}
